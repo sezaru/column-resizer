@@ -35,7 +35,6 @@ export class ColumnResizer {
       ({
         ...style,
         display: 'flex',
-        flexDirection: this.direction,
       }) as const,
 
     section: <T>(config: ColumnSectionConfig, style?: T) => ({
