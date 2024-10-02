@@ -43,7 +43,7 @@ export class ColumnSection extends ColumnInstance<ColumnSectionConfig> {
     const { flexGrow, flexShrink, flexBasis } = this.getStyle();
     this.elm.style.flexGrow = `${flexGrow}`;
     this.elm.style.flexShrink = `${flexShrink}`;
-    this.elm.style.flexBasis = `${flexBasis}px`;
+    // this.elm.style.flexBasis = `${flexBasis}px`;
   }
 
   private getStyle() {
