@@ -16,7 +16,7 @@ export class ColumnSection extends ColumnInstance<ColumnSectionConfig> {
     const toCSSSize = (size?: number) => (isValidNumber(size) ? `${size}px` : undefined);
 
     return {
-      overflow: 'hidden',
+      // overflow: 'hidden',
       [vertical ? 'maxHeight' : 'maxWidth']: toCSSSize(maxSize),
       [vertical ? 'minHeight' : 'minWidth']: toCSSSize(minSize),
     };
