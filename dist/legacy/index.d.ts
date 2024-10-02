@@ -93,9 +93,7 @@ declare class ColumnResizer {
         container: <T>(style?: T) => {
             readonly display: "flex";
         };
-        section: <T>(config: ColumnSectionConfig, style?: T) => {
-            overflow: string;
-        };
+        section: <T>(config: ColumnSectionConfig, style?: T) => {};
         bar: <T>(config: ColumnBarConfig, style?: T) => {
             flex: string;
         };
